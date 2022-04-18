@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mmc-Cv-ySw">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--About me-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lab_About_me" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N69-4K-gIs">
+                                <rect key="frame" x="16" y="152" width="358" height="167.33333333333337"/>
+                                <string key="text">My name is Roman. I'm 19 years old. My native town is Stryi. There I've graduated from Stryi Gymnasium. Nowadays, I study at Lviv Polytechnic Naional Unversity. I like reading books, watching movies and playing different sport games.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="me" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4X1-8P-83r">
+                                <rect key="frame" x="58" y="327" width="274" height="317"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="N69-4K-gIs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="108" id="KRE-FM-meo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="N69-4K-gIs" secondAttribute="trailing" constant="16" id="NMN-5M-dhR"/>
+                            <constraint firstItem="4X1-8P-83r" firstAttribute="top" secondItem="N69-4K-gIs" secondAttribute="bottom" constant="7.6666666666666288" id="bP9-5O-hIl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4X1-8P-83r" secondAttribute="bottom" constant="117" id="k9L-pd-QFK"/>
+                            <constraint firstItem="N69-4K-gIs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="mrX-gt-IfV"/>
+                            <constraint firstItem="4X1-8P-83r" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="58" id="xxe-BB-GZF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4X1-8P-83r" secondAttribute="trailing" constant="58" id="yQ5-xN-DsO"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="About me" image="person" catalog="system" selectedImage="person.fill" id="2zk-jE-ELb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="938.46153846153845" y="53.317535545023695"/>
+        </scene>
+        <!--My Favourite Book-->
+        <scene sceneID="3kE-iV-qQD">
+            <objects>
+                <viewController id="dxB-TR-fku" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UZ2-hv-b1W">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SBZ-Ge-xic">
+                                <rect key="frame" x="16" y="67" width="358" height="694"/>
+                                <string key="text">Harry Potter is a fictional story series authored by British writer J. K. Rowling. She is an excellent writer. I am really surprised to see her imagination level. I have seen the movie series of this book too. That was mind-blowing. 
+
+The story is fictional and different. It’s all about a wizard world. Hermione Granger and Ron Weasly are my most favorite characters in this book. I love the ‘Goblet of Fire’ most. This chapter is amazing. I love other chapters too, but this one seems special to me. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Nfe-oI-Cwa"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <constraints>
+                            <constraint firstItem="SBZ-Ge-xic" firstAttribute="top" secondItem="Nfe-oI-Cwa" secondAttribute="top" constant="23" id="OFo-bC-ONu"/>
+                            <constraint firstItem="SBZ-Ge-xic" firstAttribute="bottom" secondItem="Nfe-oI-Cwa" secondAttribute="bottom" id="UF5-S4-A8L"/>
+                            <constraint firstItem="Nfe-oI-Cwa" firstAttribute="trailing" secondItem="SBZ-Ge-xic" secondAttribute="trailing" constant="16" id="VJ7-iI-Qx9"/>
+                            <constraint firstItem="SBZ-Ge-xic" firstAttribute="leading" secondItem="Nfe-oI-Cwa" secondAttribute="leading" constant="16" id="WoP-T9-dQ7"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="My Favourite Book" image="book" catalog="system" selectedImage="book.fill" id="yCh-Kw-al1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kkA-ZE-DF7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1618.4615384615383" y="53.317535545023695"/>
+        </scene>
+        <!--My hobby-->
+        <scene sceneID="0UA-9A-8L6">
+            <objects>
+                <viewController id="X8J-3E-xNJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rxV-Sk-B9U">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fvm-i2-mK3">
+                                <rect key="frame" x="16" y="176" width="358" height="162.33333333333337"/>
+                                <string key="text">Most evenings, I go skating in the park. I know that's a lot, but the park is only a minute or two away from my house, and I usually spend a couple of hours there if my friends are around. My cousin, who is quite talented at skateboarding, occasionally joins us, and he teaches me a few new moves. I'm getting better all the time!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="skateboarder" translatesAutoresizingMaskIntoConstraints="NO" id="XCF-id-ofI">
+                                <rect key="frame" x="79" y="376" width="232" height="338"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="WlQ-kX-Zp1"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="XCF-id-ofI" firstAttribute="leading" secondItem="WlQ-kX-Zp1" secondAttribute="leading" constant="79" id="0NE-Pp-Bk4"/>
+                            <constraint firstItem="WlQ-kX-Zp1" firstAttribute="bottom" secondItem="XCF-id-ofI" secondAttribute="bottom" constant="47" id="4A9-PG-CMk"/>
+                            <constraint firstItem="WlQ-kX-Zp1" firstAttribute="trailing" secondItem="XCF-id-ofI" secondAttribute="trailing" constant="79" id="T3z-sb-eZt"/>
+                            <constraint firstItem="Fvm-i2-mK3" firstAttribute="top" secondItem="WlQ-kX-Zp1" secondAttribute="top" constant="132" id="XUa-2K-PmT"/>
+                            <constraint firstItem="XCF-id-ofI" firstAttribute="top" secondItem="Fvm-i2-mK3" secondAttribute="bottom" constant="37.666666666666629" id="idf-lD-rB5"/>
+                            <constraint firstItem="Fvm-i2-mK3" firstAttribute="leading" secondItem="WlQ-kX-Zp1" secondAttribute="leading" constant="16" id="r64-IF-Tsu"/>
+                            <constraint firstItem="WlQ-kX-Zp1" firstAttribute="trailing" secondItem="Fvm-i2-mK3" secondAttribute="trailing" constant="16" id="w9h-jk-JtH"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="My hobby" image="h.square" catalog="system" selectedImage="h.square.fill" id="H7B-hc-t6b"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VXd-Bt-qCn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2283.0769230769229" y="53.317535545023695"/>
+        </scene>
+        <!--Favourite Quotes-->
+        <scene sceneID="u9K-Ga-pCw">
+            <objects>
+                <viewController id="o5G-Em-cyk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jAX-lD-TqB">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hYp-HI-T47">
+                                <rect key="frame" x="16" y="44" width="344" height="717"/>
+                                <string key="text">-"Ask, and it shall be given you; seek, and you shall find."                                                                                 -"Genius is one percent inspiration and ninety-nine percent perspiration."           -"Keep your friends close, but your enemies closer."               -"Life is like riding a bicycle. To keep your balance, you must keep moving."</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HP8-Tl-5ux"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                        <constraints>
+                            <constraint firstItem="hYp-HI-T47" firstAttribute="bottom" secondItem="HP8-Tl-5ux" secondAttribute="bottom" id="BMG-oi-pdI"/>
+                            <constraint firstItem="HP8-Tl-5ux" firstAttribute="trailing" secondItem="hYp-HI-T47" secondAttribute="trailing" constant="30" id="Faq-TD-WYj"/>
+                            <constraint firstItem="hYp-HI-T47" firstAttribute="leading" secondItem="HP8-Tl-5ux" secondAttribute="leading" constant="16" id="h82-Mx-jRu"/>
+                            <constraint firstItem="hYp-HI-T47" firstAttribute="top" secondItem="HP8-Tl-5ux" secondAttribute="top" id="kqg-Tr-g3d"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Favourite Quotes" image="q.square" catalog="system" selectedImage="q.square.fill" id="hFc-uv-eZ2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aJs-Wx-RWC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2956.9230769230767" y="53.317535545023695"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="1LA-jY-V9N">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="mmc-Cv-ySw" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="QqH-Zg-uM4">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="hLE-Ix-KMb"/>
+                        <segue destination="dxB-TR-fku" kind="relationship" relationship="viewControllers" id="Frc-FU-oxX"/>
+                        <segue destination="X8J-3E-xNJ" kind="relationship" relationship="viewControllers" id="tDF-MZ-nUs"/>
+                        <segue destination="o5G-Em-cyk" kind="relationship" relationship="viewControllers" id="en8-j2-ehe"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Nc-zP-Xw6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28.985507246376812" y="53.571428571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="book" catalog="system" width="128" height="99"/>
+        <image name="book.fill" catalog="system" width="128" height="95"/>
+        <image name="h.square" catalog="system" width="128" height="114"/>
+        <image name="h.square.fill" catalog="system" width="128" height="114"/>
+        <image name="me" width="1280" height="1280"/>
+        <image name="person" catalog="system" width="128" height="117"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="q.square" catalog="system" width="128" height="114"/>
+        <image name="q.square.fill" catalog="system" width="128" height="114"/>
+        <image name="skateboarder" width="1000" height="1497"/>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
